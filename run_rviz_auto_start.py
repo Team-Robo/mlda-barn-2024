@@ -1,3 +1,4 @@
+# run_rviz_auto_start.py
 import time
 import argparse
 import subprocess
@@ -9,6 +10,7 @@ import rospy
 import rospkg
 
 from gazebo_simulation import GazeboSimulation
+
 
 INIT_POSITION = [-2, 3, 1.57]  # in world frame
 GOAL_POSITION = [0, 10]  # relative to the initial position
